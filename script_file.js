@@ -1,11 +1,11 @@
 // 地区与高倍关键词常量
 const REGION_KEYWORDS = {
-  hk: "(?:[hH][kK]|香港|港)",
-  sg: "(?:[sS][gG]|新加坡|狮城)",
-  tw: "(?:[tT][wW]|台湾|台)",
-  jp: "(?:[jJ][pP]|日本|日)",
-  kr: "(?:[kK][rR]|韩国|韩)",
-  us: "(?:[uU][sS]|美国|美)",
+  hk: "(?:[hH]ong\\s*[kK]ong|[hH][kK]|香港|港)",
+  sg: "(?:[sS]ingapore|[sS][gG]|新加坡|狮城)",
+  tw: "(?:[tT]aiwan|[tT][wW]|台湾|台)",
+  jp: "(?:[jJ]apan|[jJ][pP]|日本|日)",
+  kr: "(?:[kK]orea|[kK][rR]|韩国|韩)",
+  us: "(?:[uU]nited\\s*[sS]tates|[uU][sS]|美国|美)",
 };
 const MULTI_KEYWORDS = "(x10|x8|x5|10倍|8倍|5倍)";
 
